@@ -127,7 +127,6 @@ namespace Assignment1
             labelResult.Text = "Hello " + userName + "!\n\n" +
             "Your " + conversionAmount.ToString("N2") + " " + FromCurrency() + " can convert to " + convertedAmount.ToString("N2") + " " + ToCurrency() + " at " + currentDate +
             "\n" + currentTime + "!";
-            return;
         }
     }
 }
